@@ -67,6 +67,7 @@ section.sky .getpoint {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 100px;
+  position: relative;
 }
 
 section.sky .getpoint .point0 {
@@ -89,6 +90,19 @@ section.sky .getpoint .point1 {
   color: #918181;
   font-size: 40px;
   text-align: center;
+}
+
+section.sky .getpoint .mushroom {
+  position: absolute;
+  top: 0;
+  left: 52%;
+  opacity: 0;
+  -webkit-animation-name: mushroom;
+          animation-name: mushroom;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-delay: 14s;
+          animation-delay: 14s;
 }
 
 section.sky .gamezone {

@@ -44,6 +44,7 @@ section.sky{
         display: flex;
         justify-content: center;
         margin-top: 100px;
+        position: relative;
         .point0{
             height: 50px;
             width:60px;
@@ -63,6 +64,15 @@ section.sky{
             color: rgb(145, 129, 129);
             font-size: 40px;
             text-align: center;
+        }
+        .mushroom{
+            position: absolute;
+            top: 0;
+            left: 52%;
+            opacity: 0;
+            animation-name: mushroom;
+            animation-duration: 5s;
+            animation-delay: 14s;
         }
     }
     .gamezone{
